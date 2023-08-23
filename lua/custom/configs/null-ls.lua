@@ -12,6 +12,8 @@ local sources = {
   b.formatting.deno_fmt.with {
     extra_args = { '--no-semicolons', '--single-quote' },
   },
+
+  b.formatting.rustfmt,
 }
 
 local augroup = vim.api.nvim_create_augroup('LspFormatting', {})

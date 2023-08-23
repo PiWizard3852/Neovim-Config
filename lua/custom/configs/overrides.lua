@@ -12,6 +12,7 @@ M.treesitter = {
     'json',
     'yaml',
     'python',
+    'rust',
   },
   indent = {
     enable = true,
@@ -32,6 +33,8 @@ M.mason = {
     'yamllint',
     'python-lsp-server',
     'pylint',
+    'rust-analyzer',
+    'rustfmt',
   },
 }
 
