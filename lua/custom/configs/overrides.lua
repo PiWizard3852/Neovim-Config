@@ -13,6 +13,7 @@ M.treesitter = {
     'yaml',
     'python',
     'rust',
+    'cpp',
   },
   indent = {
     enable = true,
@@ -35,6 +36,8 @@ M.mason = {
     'pylint',
     'rust-analyzer',
     'rustfmt',
+    'cpplint',
+    'clang-format',
   },
 }
 

@@ -13,6 +13,7 @@ local servers = {
   'yamlls',
   'pylyzer',
   'rust_analyzer',
+  'sourcekit',
 }
 
 for _, lsp in ipairs(servers) do

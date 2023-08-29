@@ -14,6 +14,8 @@ local sources = {
   },
 
   b.formatting.rustfmt,
+
+  b.formatting.clang_format,
 }
 
 local augroup = vim.api.nvim_create_augroup('LspFormatting', {})
