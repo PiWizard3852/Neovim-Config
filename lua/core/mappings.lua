@@ -119,7 +119,7 @@ M.tabufline = {
     },
 
     -- close buffer + hide terminal buffer
-    ['<C-tab>'] = {
+    ['<leader>fq'] = {
       function()
         require('nvchad.tabufline').close_buffer()
       end,
